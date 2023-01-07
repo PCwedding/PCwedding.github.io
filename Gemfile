@@ -17,4 +17,5 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-redirect-from'
     gem 'hawkins'                    # jekyll liveserve
+    gem 'jekyll-spaceship'
 end

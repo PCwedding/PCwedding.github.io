@@ -40,3 +40,9 @@ compress_html:
     envs: [local]
   blanklines: true
   startings: [head, body]
+
+# Where things are
+jekyll-spaceship:
+  # default enabled processors
+  processors:
+    - media-processor
