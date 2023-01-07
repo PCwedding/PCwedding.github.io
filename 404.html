@@ -1,16 +1,16 @@
 ---
 layout: default
-title: 404 - Page not found
+title: 404 - Seite nicht gefunden
 visible: false
 ---
 
 <div id="content" class="content">
     <header class="post-header short-diver">
-        <h1 class="post-title">Page not found</h1>
-        <p>The page you requested could not be found.</p>
+        <h1 class="post-title">Seite nicht gefunden</h1>
+        <p>Die Angefragte Seite gibt es nicht.</p>
     </header>
 
-    <h3>Similar URLs</h3>
+    <h3>Ähnliche URLs</h3>
     <ul class="category recent-posts">
         <ul class="urlSuggestions"></ul>
     </ul>
@@ -31,7 +31,6 @@ visible: false
 
 <script src="{{ "/js/jquery-1.12.0.min.js" | absolute_url }}"></script>
 <script src="{{ "/js/fuzzyset.js" | absolute_url }}"></script>
-<script src="{{ "/js/offline.js" | absolute_url }}"></script>
 <script>
     $(document).ready(function () {
         insertSimilarUrls(String(window.location.href), "{{ "/api/posts.json" | absolute_url }}", "#article-template", ".urlSuggestions", 10);
