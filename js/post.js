@@ -2,8 +2,6 @@
 (function ($, undefined) {
     var $document = $(document);
     $document.ready(function () {
-        var $postContent = $('.post-content');
-        var postTitleLink = $('.post-title a');
         var container = $('.content');
         var $album = $('.album');
         var pswpElement = $('.pswp').get(0);
