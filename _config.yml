@@ -14,7 +14,7 @@ language:         "en" # default language of the blog. Language codes: http://ww
 
 baseurl:          "/" # the subpath of your site, e.g. /blog
 url:              "" # the base hostname & protocol for your site. Have a look at robots.txt as well!
-permalink:        /:title
+permalink:        /:slug
 cover:            /assets/Phedra-Carsten.webp
 disqus_shortname: "jekylldecent"
 
