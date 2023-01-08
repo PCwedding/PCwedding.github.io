@@ -13,12 +13,6 @@
         var timeoutHandler;
 
         /*
-            Fix video size.
-         */
-        $postContent.fitVids();
-
-
-        /*
             Image gallery
          */
         $('.post-content img').each(function () {
