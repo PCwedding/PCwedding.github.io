@@ -1,0 +1,21 @@
+{
+  "name": "pcwedding.github.io",
+  "version": "1.0.0",
+  "description": "This blog contains greeting message of the guest from the wedding",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PCwedding/PCwedding.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PCwedding/PCwedding.github.io/issues"
+  },
+  "homepage": "https://github.com/PCwedding/PCwedding.github.io#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.33.0"
+  }
+}
