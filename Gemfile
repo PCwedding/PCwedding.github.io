@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem "jekyll"
+gem "webrick"
 gem "kramdown-parser-gfm"
 gem 'wdm', '>= 0.1.1' if Gem.win_platform?
 
